@@ -3,10 +3,13 @@ package com.kumar.springexample.game;
 public class GameRunner {
 	// tightly couple MarioGame because it's some change here 
 //	private MarioGame game;
-	private SuperContraGame game;
+//	private SuperContraGame game;
+	// using interface  and also passing different object and executed  different behavior 
+	private GamingConsole game;
+
 	
 	// create constructor to passing object of MarioGame class
-	public  GameRunner(SuperContraGame game) {
+	public  GameRunner(GamingConsole game) {
 		this.game = game;
 	}
 
