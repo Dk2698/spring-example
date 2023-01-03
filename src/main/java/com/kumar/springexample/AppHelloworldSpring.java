@@ -21,9 +21,12 @@ public class AppHelloworldSpring {
 		
 		System.out.println(context.getBean("person"));
 		
-		System.out.println(context.getBean("address"));
-
-
+//		System.out.println(context.getBean("address"));
+		System.out.println(context.getBean("address2"));
+		//  No qualifying bean of type 'com.kumar.springexample.Address' available: expected single matching bean but found 2: address2,address3
+//		System.out.println(context.getBean(Address.class));
+		System.out.println(context.getBean("person2MethodCall"));
+		System.out.println(context.getBean("person3Parameters"));
 
 		
 	}
