@@ -5,7 +5,7 @@ import com.kumar.springexample.game.MarioGame;
 import com.kumar.springexample.game.PacmanGame;
 import com.kumar.springexample.game.SuperContraGame;
 
-public class AppGamingBasic {
+public class AppHelloworldSpring {
 	public static void main(String[] args) {
 		
 		//var marioGame = new MarioGame();

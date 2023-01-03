@@ -5,6 +5,7 @@ public class GameRunner {
 //	private MarioGame game;
 //	private SuperContraGame game;
 	// using interface  and also passing different object and executed  different behavior 
+	// loosely coupled
 	private GamingConsole game;
 
 	
